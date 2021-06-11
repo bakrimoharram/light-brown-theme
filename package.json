@@ -1,0 +1,30 @@
+{
+    "name": "light-brown",
+    "displayName": "Light Brown",
+    "description": "Light Brown Theme for vs code.",
+    "publisher": "bakrimoharram",
+    "author": {
+        "name": "Bakri Moharram",
+        "email": "bakri_moharram@hotmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/bakrimoharram/light-brown-theme.git",
+        "type": "git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Brown",
+                "uiTheme": "vs",
+                "path": "./themes/Light-Brown-color-theme.json"
+            }
+        ]
+    }
+}
